@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.1 — 2026-11-20
+- **Recents as a button.** Recent items now have three modes: Show (the list), Button (a “Recent” button you open with a click or ↓) and Hide (just the search bar). Settings → Search, the tray menu, or right-click the bar.
+
 ## 0.4.0 — 2026-11-20
 - **Your own theme from any colour.** Pick a colour in the new colour picker, or click any pixel on screen with the eyedropper, and Pounce builds a whole theme from it, dark or light. Also: type `theme #ff7a59` or `theme pick` in Pounce.
 - **Settings follows your theme.** Settings, the tray menu and every Pounce window now change with the theme, straight away.
