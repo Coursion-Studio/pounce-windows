@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 — 2026-11-20
+- **Your own theme from any colour.** Pick a colour in the new colour picker, or click any pixel on screen with the eyedropper, and Pounce builds a whole theme from it, dark or light. Also: type `theme #ff7a59` or `theme pick` in Pounce.
+- **Settings follows your theme.** Settings, the tray menu and every Pounce window now change with the theme, straight away.
+- **Live preview** in Settings → Appearance shows the bar in the selected theme and style as you click.
+
 ## 0.3.0 — 2026-11-20
 - **Automatic updates.** Pounce checks once a day and shows what's new; one click downloads, verifies
   and installs the update. Every update is signed by Coursion Studio. Settings → Updates, or the tray.
