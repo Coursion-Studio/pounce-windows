@@ -58,15 +58,22 @@ Setup adds Pounce to the **Start menu**, can **start it with Windows**, and regi
 |   |   |
 |---|---|
 | 🚀 **Apps** | Every installed app, desktop and Microsoft Store, with its real icon. Fuzzy matching: `vsc` finds Visual Studio Code and `snip` finds Snipping Tool. |
-| 📄 **Files** | Instant results from the Windows Search index in your user folder. <kbd>Ctrl</kbd>+<kbd>Enter</kbd> shows the file in Explorer. |
+| 📄 **Files** | Everything Windows indexes, or every drive instantly when [Everything](https://www.voidtools.com) is running. <kbd>Ctrl</kbd>+<kbd>Enter</kbd> shows the file in Explorer. |
 | 🧮 **Maths** | Type `12*7+sqrt(16)`, `2^10`, `(1+2)*3` or `3,5+1`, and <kbd>Enter</kbd> copies the result. |
 | 🌐 **Web** | Type `github.com` to open it directly, or search Google in your default browser. |
-| ⌨️ **Commands** | `> ipconfig` runs it in Command Prompt. Lock PC, Recycle Bin, Downloads, Startup apps and more are built in. |
-| 🕘 **Recent** | An empty search shows what you opened last, and the apps you use most rank higher. |
+| 🪟 **Window switcher** | Type part of a window's title or app, such as `chrome docs`, and jump straight to it. `:win` lists every open window. |
+| 📋 **Clipboard history** | Type `clip` for the last 50 things you copied, text and images; <kbd>Enter</kbd> pastes. Encrypted on your PC, password-manager copies skipped. |
+| 📏 **Conversions** | `5 km in miles`, `72f to c`, `2 gb in mb`, `3 cups to ml`. Currency (`100 usd to try`) is opt-in, with daily ECB rates. |
+| 🎯 **Scopes** | Type `:` to search one thing: `:apps` `:files` `:win` `:clip` `:web` `:sys` `:snip`. |
+| ⚙️ **System actions** | Dark mode, volume, sleep, lock, restart and shut down (they ask first), empty Recycle Bin, Wi-Fi, Bluetooth, screenshot. |
+| ✂️ **Snippets & quick links** | `;date` or your own `;addr` pastes text; `gh pounce`, `yt`, `wiki`, `maps` open searches. Add your own in Settings. |
+| ⌨️ **Commands** | `> ipconfig` runs it in Command Prompt. Downloads, Documents, Startup apps and more are built in. |
+| 🕘 **Recent** | An empty search shows what you opened last (as a list, a button, or not at all), and the apps you use most rank higher. |
 | 🎨 **15 themes, 3 styles** | The same palettes as Pounce in Hutch, from Aurora to Paper, in Glass, Ledger or Compact. Type `theme` to switch live. |
 | 🖱️ **Right-click** | Run as administrator, show in Explorer, copy path or link, remove from recents. |
+| 🌍 **14 languages** | English, Deutsch, Español, Français, Italiano, Português, Nederlands, Polski, Türkçe, Русский, Українська, 日本語, 한국어, 简体中文. |
 | 🔄 **Automatic updates** | Checks once a day, shows what's new, and installs with one click. Every update is signed by Coursion Studio. |
-| 🔒 **Private** | Runs entirely on your PC. No account, no analytics, no telemetry. The only network call is the daily update check. |
+| 🔒 **Private** | Runs entirely on your PC. No account, no analytics, no telemetry. The only network calls are the daily update check and, if you turn it on, exchange rates. |
 
 ## 📸 Screenshots
 
@@ -93,6 +100,9 @@ Setup adds Pounce to the **Start menu**, can **start it with Windows**, and regi
 | Clear search / close | <kbd>Esc</kbd> |
 | Settings | <kbd>Ctrl</kbd>+<kbd>,</kbd> · the ⚙ button · right-click the tray icon |
 | Run a command | Start your search with `>` |
+| Search just one thing | Start with `:` (`:apps`, `:files`, `:win`, `:clip`, `:web`, `:sys`, `:snip`) |
+| Clipboard history | Type `clip` |
+| Paste a snippet | Type `;` and its keyword, e.g. `;date` |
 | Move the bar | Drag its top edge or the bottom hint bar · double-click either to re-centre |
 | More actions on a result | Right-click it · or the keyboard's menu key |
 | Change theme / style | Type `theme` or `style` · right-click the bar · Settings → Appearance |

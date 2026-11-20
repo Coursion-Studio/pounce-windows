@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.5.0 — 2026-11-20
+- **Window switcher.** Type part of a window's title or app, such as `chrome docs`, and jump straight to it. `:win` lists every open window.
+- **Clipboard history.** Type `clip` to see the last 50 things you copied, text and images, and paste one with Enter. Stored only on this PC, encrypted with your Windows account; copies from password managers are skipped. Turn it off or clear it in Settings.
+- **Conversions.** `5 km in miles`, `72f to c`, `2 gb in mb`, `3 cups to ml`. Currency (`100 usd to try`) is opt-in and uses daily European Central Bank rates.
+- **Scopes.** Type `:` to search just one thing: `:apps`, `:files`, `:win`, `:clip`, `:web`, `:sys`, `:snip`.
+- **System actions.** Dark mode, volume, mute, sleep, lock, restart, shut down and sign out (these ask first), empty Recycle Bin, Wi-Fi and Bluetooth settings, screenshot.
+- **Snippets and quick links.** `;addr` pastes your saved text (`;date` and `;time` built in). `gh pounce`, `yt`, `wiki`, `maps` open searches; add your own in Settings.
+- **Wider file search.** Searches everything Windows indexes, and every drive instantly when Everything (voidtools.com) is running.
+- **14 languages.** English, Deutsch, Español, Français, Italiano, Português (Brasil), Nederlands, Polski, Türkçe, Русский, Українська, 日本語, 한국어 and 简体中文. Auto follows Windows; change it in Settings → General → Language.
+- **Works over admin windows.** Optional: Settings → General. Asks for permission once.
+
 ## 0.4.1 — 2026-11-20
 - **Recents as a button.** Recent items now have three modes: Show (the list), Button (a “Recent” button you open with a click or ↓) and Hide (just the search bar). Settings → Search, the tray menu, or right-click the bar.
 
