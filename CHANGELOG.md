@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.1 — 2026-11-20
+- **Scopes, the Pounce way.** Type `apps:`, `files:`, `windows:`, `clipboard:`, `web:`, `actions:` or `snippets:` and the prefix turns into a coloured chip in the search field. Pounce then searches only that kind of thing, with its own hint text. Backspace in an empty field, Esc, or a click on the chip leaves the scope.
+- **Browse scopes.** Type `:` to see every scope; press Enter on one to switch to it.
+- **Scopes guide** in Settings, with each scope's prefix.
+- Drive paths such as `c:\` still search files as before.
+
 ## 0.5.0 — 2026-11-20
 - **Window switcher.** Type part of a window's title or app, such as `chrome docs`, and jump straight to it. `:win` lists every open window.
 - **Clipboard history.** Type `clip` to see the last 50 things you copied, text and images, and paste one with Enter. Stored only on this PC, encrypted with your Windows account; copies from password managers are skipped. Turn it off or clear it in Settings.
