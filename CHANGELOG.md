@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.6.0 — A proper welcome
+_2026-11-21_
+Pounce now shows you around the first time you open it, and tells you what changed after every update.
+
+### Getting started
+- **Welcome tour.** Seven short steps the first time you open Pounce: your shortcut, a live search to try, scopes, your theme and what stays on your PC. Replay it any time from the tray menu.
+- **What's New.** After an update, Pounce shows what changed, in your language. Open it again from the tray menu.
+
+### Smaller things
+- **Settings, tidied up.** A sidebar with one page per topic: General, Appearance, Shortcuts, Search, Scopes, Snippets, Updates and About. Ctrl+Tab moves between pages.
+- **Updates in your language.** The update window and its messages now follow your language too.
+- **Tray menu.** New “What's New…” and “Welcome tour…” items.
+
 ## 0.5.1 — 2026-11-20
 - **Scopes, the Pounce way.** Type `apps:`, `files:`, `windows:`, `clipboard:`, `web:`, `actions:` or `snippets:` and the prefix turns into a coloured chip in the search field. Pounce then searches only that kind of thing, with its own hint text. Backspace in an empty field, Esc, or a click on the chip leaves the scope.
 - **Browse scopes.** Type `:` to see every scope; press Enter on one to switch to it.

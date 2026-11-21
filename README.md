@@ -142,11 +142,31 @@ Type what you want, such as `dark` or `lock`, or `actions:` to see them all.
 - **Snippets** paste saved text: type `;` and the keyword. `;date`, `;time` and `;now` are built in; add your own, such as `;addr` for your address.
 - **Quick links** search a site: `gh pounce` searches GitHub, plus `yt`, `wiki` and `maps`. Add your own with `{q}` where the search goes.
 
-Manage both in **Settings → Snippets & quick links**.
+Manage both in **Settings → Snippets**.
 
 <p align="center">
   <img src="docs/shot-snippets.png" width="49%" alt="Snippets (Sunset theme, Ledger style)">
   <img src="docs/shot-command.png" width="49%" alt="Run a command with >">
+</p>
+
+## 👋 Welcome tour & What's New
+
+The first time you open Pounce, a seven-step tour shows you around: your shortcut, a live search to try,
+scopes, your theme and what stays on your PC. After every update, **What's New** pages through what changed,
+in your language. Open either one again from the tray menu or **Settings → Updates**.
+
+<p align="center">
+  <img src="docs/shot-tour.png" width="49%" alt="The welcome tour">
+  <img src="docs/shot-whatsnew.png" width="49%" alt="What's New">
+</p>
+
+## ⚙️ Settings
+
+One page per topic: General, Appearance, Shortcuts, Search, Scopes, Snippets, Updates and About.
+Open it with <kbd>Ctrl</kbd>+<kbd>,</kbd> in Pounce, the ⚙ button or the tray menu; <kbd>Ctrl</kbd>+<kbd>Tab</kbd> moves between pages.
+
+<p align="center">
+  <img src="docs/shot-settings.png" width="80%" alt="Pounce Settings">
 </p>
 
 ## 🎨 Themes & styles
@@ -183,7 +203,7 @@ English, Deutsch, Español, Français, Italiano, Português (Brasil), Nederlands
 
 <p align="center">
   <img src="docs/shot-menu.png" width="32%" alt="Tray menu with shortcut toggles">
-  <img src="docs/shot-settings.png" width="40%" alt="Settings">
+  <img src="docs/shot-settings-scopes.png" width="40%" alt="Settings → Scopes">
 </p>
 <p align="center">
   <img src="docs/shot-about.png" width="40%" alt="About Pounce">
